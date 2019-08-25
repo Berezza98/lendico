@@ -1,0 +1,21 @@
+const getters = {
+
+}
+
+const mutations = {
+  UPDATE_MONTHLY_INSTALLMENT: "UPDATE_MONTHLY_INSTALLMENT",
+  UPDATE_DURATION: "UPDATE_DURATION",
+  UPDATE_AMOUNT: "UPDATE_AMOUNT",
+}
+
+const actions = {
+  UPDATE_DURATION: "UPDATE_DURATION",
+  UPDATE_AMOUNT: "UPDATE_AMOUNT",
+  GET_MONTHLY_INSTALLMENT: "GET_MONTHLY_INSTALLMENT"
+}
+
+export default {
+  getters,
+  mutations,
+  actions
+}
