@@ -1,4 +1,4 @@
-# lendico
+# Lendico
 
 ## Project setup
 ```
@@ -14,16 +14,16 @@ npm run serve
 ```
 npm run build
 ```
+After the building application you will see `dist` folder with `app.css` and `app.js` files inside. You can copy this files and paste them in needed project.
 
-### Run your tests
-```
-npm run test
-```
+## How it works
 
-### Lints and fixes files
+After importing `.js` and `.css` files in your project you can use new custom tag in any part of application/site...
 ```
-npm run lint
+<vue-calculator><vue-calculator/>
 ```
+This custom tag will be replaced with calculator widget.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## How to start server side
+### To start server side of application you need to launch next project:
+See [Lendico backend](https://github.com/Berezza98/lendico-backend).
